@@ -1,3 +1,7 @@
+Here's your updated README with the attribution added:  
+
+---
+
 # Number Guessing Game
 
 A simple number guessing game written in Go. The game randomly selects a number between 1 and 100, and the player has to guess it within a limited number of attempts based on the chosen difficulty level.
@@ -20,7 +24,7 @@ A simple number guessing game written in Go. The game randomly selects a number 
 Run the game using the following command:
 
 ```sh
- go run main.go
+go run main.go
 ```
 
 Follow the on-screen instructions to play the game.
@@ -65,6 +69,12 @@ This project is open-source and available under the MIT License.
 ## Contributions
 Contributions are welcome! Feel free to submit pull requests or suggest improvements.
 
+## Credits
+This project idea was inspired by [roadmap.sh's Number Guessing Game](https://roadmap.sh/projects/number-guessing-game).
+
 ## Author
 Created by Abhishek Kumar Singh
 
+---
+
+Let me know if you need any further changes! 🚀
