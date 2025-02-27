@@ -33,5 +33,9 @@ Please select the difficulty level:
 }
 
 func startGame(difficultyLevel string, chance uint8) {
-
+	msg := `
+Great! You have selected the %s difficulty level.
+Let's start the game! 
+	`
+	fmt.Printf(msg, difficultyLevel)
 }
