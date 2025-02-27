@@ -20,5 +20,18 @@ Please select the difficulty level:
 	var choice uint8
 	fmt.Scan(&choice)
 
-	fmt.Println("You selected difficulty:", choice)
+	switch choice {
+	case 1:
+		startGame("Easy", 10)
+	case 2:
+		startGame("Medium", 5)
+	case 3:
+		startGame("Hard", 3)
+	default:
+		fmt.Println("Unknown difficulty level.")
+	}
+}
+
+func startGame(difficultyLevel string, chance uint8) {
+
 }
