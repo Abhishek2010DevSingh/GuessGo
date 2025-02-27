@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
 
 func main() {
 	msg := `
@@ -38,4 +42,13 @@ Great! You have selected the %s difficulty level.
 Let's start the game! 
 	`
 	fmt.Printf(msg, difficultyLevel)
+
+}
+
+func generateRandomNumber() {
+	src := rand.NewSource(time.Now().UnixNano())
+	rng := rand.New(src)
+	randomNum := rng.Intn(100) + 1
+	fmt.Println(randomNum)
+
 }
