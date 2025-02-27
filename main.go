@@ -16,4 +16,9 @@ Please select the difficulty level:
 
 	fmt.Println(msg)
 
+	fmt.Print("Enter your choice (1, 2, or 3):")
+	var choice uint8
+	fmt.Scan(&choice)
+
+	fmt.Println("You selected difficulty:", choice)
 }
